@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=WindSong:wght@400;500&display=swap');
+
+/*PROPRIETES GENERAL*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", serif;
+}
+
+a {
+    text-decoration: none; /*Enlève les surlignements des a*/
+    color: black; /*Mettre en noir tout les a de la page*/
+}
+
+li {
+    list-style-type: none; /*Enlève les puces des li*/
+}
+
+.bgYellow {
+    background-color: #F3C827;
+}
+
+.flex {
+    display: flex; /*Côte à côte*/
+    flex-wrap: wrap; /*Si ça rendre pas tout, retour à la ligne*/
+}
+
+.spaceBetween {
+    justify-content: space-between; /*Mettre des espaces*/
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+
+
+
+/*HEADER*/
+.navHeader {  /*Mettre une dimension à la nav pour créer les espaces*/
+  /* background-color: blue;*/
+    width: 50%;
+}
+
+.header {
+    /* background-color: violet;*/
+    padding: 15px; 
+ }
+ 
+ .panierIcon {
+     color: #F3C827;
+     font-size: 30px;
+ }
+ 
+
+
+/*SECTION HERO*/
+.hero {
+    height: 100vh;
+}
+
+.hero h2 {
+    font-size: 130px;
+    font-family: "WindSong", cursive;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 32px;
+}
+.container {  
+    max-width: 1000px; /*Ds container tjs mettre ls propriétés max width et with*/
+    width: 100%;
+    margin: auto; /*c'est égal à margin-right et margin-left=auto*/
+    display: flex;
+}
+
+.btn {
+    background-color: #F66909;
+    border-radius: 4px;
+    padding: 10px;
+    color: white;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+
+ /*SECTION ENGAGEMENT*/
+ .engagement {
+      /* display: flex;*/   
+    height: 60vh;   
+    /*margin: auto;*/
+}
+
+.engagement h3 {
+  padding-left: 5px;
+    margin-top: 2px;   
+}
+
+.engagement p {
+   padding-left: 5px;
+     margin-top: 32px;   
+ }
+ 
