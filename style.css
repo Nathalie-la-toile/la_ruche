@@ -38,8 +38,6 @@ li {
 }
 
 
-
-
 /*HEADER*/
 .navHeader {  /*Mettre une dimension à la nav pour créer les espaces*/
   /* background-color: blue;*/
@@ -91,8 +89,8 @@ h1 {
     width: 45%;
 }
 
-.width33 {
-    width: 33%;
+.width30 {
+    width: 30%;
 }
 
 
@@ -111,7 +109,11 @@ h1 {
 }
 
 .engagement p {   /*J'ai mis la class width45 pour que les 2 paragraphes se mettent côte à côte*/
-    margin-top: 25px;   
+    margin-top: 25px;  
+    font-family: "Inter", serif; 
+    font-weight:500;
+    font-style: normal;
+    font-size: 16px;
  }
  
  
@@ -124,25 +126,122 @@ h1 {
     margin-top: 40px;
     margin-bottom: 20px;
     font-family: "Inter", serif; 
-    font-weight:600;
+    font-weight:700;
     font-style: normal;
     font-size: 32px;
 }
 
+.bienfait h4 {
+    font-family: "Inter", serif; 
+    font-weight:700;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.bienfait p {
+    font-family: "Inter", serif; 
+    font-weight:500;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.bienfait .btn {
+    font-family: "Inter", serif; 
+    font-weight:600;
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+
 /*SECTION PRODUITS*/
-.produits h3 {   
+
+.produits {
+    margin-left: 20px;   
+    margin-bottom: 20px;  
+}
+
+.produits h3 {  
+    margin-left: 90px;   
     margin-top: 40px;
     margin-bottom: 20px;
     font-family: "Inter", serif; 
     font-weight:600;
     font-style: normal;
-    font-size: 32px;
-    margin-left: 40px; 
+    font-size: 32px;      
+}
+
+.card {         
+    width: 267px;
+    height: 458px;
+    border-radius: 4px;   
+}
+
+.produitsInfos {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.produitsInfos h4 {
+    font-family: "Inter", serif; 
+    font-weight:600;
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 8px;
+}
+
+.produitsInfos p {
+    font-family: "Inter", serif; 
+    font-weight:500;
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.produitsInfos .btn {
+   padding-left:40px;     
+   padding-right:40px;   
 }
 
 
-
-
-.card {
-    gap: 20px;
+/*SECTION NOS CLIENTS*/
+.clients {
+    /*margin-left: 20px; */ 
+   padding-bottom: 60px;
+   
 }
+
+.clients h3 {
+    font-family: "Inter", serif; 
+    font-weight:600;
+    font-style: normal;
+    font-size: 32px;      
+    color: #593E26;
+    margin-top: 40px;
+}
+
+.photoEtoile {
+   display: flex;
+   margin-bottom:15px; 
+   margin-top:40px;
+   }
+
+   .photoEtoile p {
+   margin-top:10px;
+   margin-left:10px;
+   font-family: "Inter", serif; 
+   font-weight:800;
+   font-style: normal;
+   font-size: 20px;     
+   }
+
+   .photoEtoile .etoiles {
+    margin-top:10px;
+    margin-left:10px;
+    font-weight:800;
+    }
+
+    .Petoile {
+       /* display: flex;*/
+       margin-left:15px;
+    }
