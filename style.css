@@ -93,6 +93,10 @@ h1 {
     width: 30%;
 }
 
+.width25 {
+    width: 25%;
+}
+
 
  /*SECTION ENGAGEMENT*/
  .engagement {       
@@ -151,11 +155,11 @@ h1 {
     font-style: normal;
     font-size: 20px;
     margin-bottom: 25px;
+    margin-top:30px;
 }
 
 
 /*SECTION PRODUITS*/
-
 .produits {
     margin-left: 20px;   
     margin-bottom: 20px;  
@@ -226,7 +230,7 @@ h1 {
    margin-top:40px;
    }
 
-   .photoEtoile p {
+ .Petoile p {
    margin-top:10px;
    margin-left:10px;
    font-family: "Inter", serif; 
@@ -235,13 +239,71 @@ h1 {
    font-size: 20px;     
    }
 
-   .photoEtoile .etoiles {
-    margin-top:10px;
-    margin-left:10px;
-    font-weight:800;
-    }
+.star {
+        margin-left:14px;       
+ }
 
-    .Petoile {
-       /* display: flex;*/
-       margin-left:15px;
-    }
+   
+/*SECTION NOUS TROUVER*/
+.nousTrouver h3 {
+    font-family: "Inter", serif; 
+    font-weight:700;
+    font-style: normal;
+    font-size: 26px;  
+    margin-top:45px;
+    width: 100%;
+}
+
+.nousTrouver iframe {
+    width: 873px;
+    height: 386px;
+    margin-top:25px;
+}
+
+.adresse h4 {
+    font-family: "Inter", serif; 
+    font-weight:700;
+    font-style: normal;
+    font-size: 20px;  
+    margin-top:20px;
+}
+
+.adresse p {
+    font-family: "Inter", serif; 
+    font-weight:500;
+    font-style: normal;
+    font-size: 14px;  
+}
+
+/*FOOTER*/
+.contact {
+    margin-top: 30px;
+    height: 30vh;
+    gap: 50px;
+}
+
+.contact h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Inter", serif; 
+    font-weight:700;
+    font-style: normal;
+    font-size: 24px; 
+}
+
+.contact p {
+    margin-top: 12px;
+    font-family: "Inter", serif; 
+    font-weight:500;
+    font-style: normal;
+    font-size: 14px;      
+}
+
+.contact a {
+    margin-top: 12px;
+    font-family: "Inter", serif; 
+    font-weight:500;
+    font-style: normal;
+    font-size: 14px;    
+    line-height: 28px;
+}
